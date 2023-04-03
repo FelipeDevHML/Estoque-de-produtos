@@ -1,0 +1,75 @@
+/* html {font-size: 62.5%;} */
+
+* {
+	margin: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+	background-color: #303030;
+	padding: 5px;
+	color: #faebd7;
+	display: grid;
+	text-align: center;
+}
+	header img {
+		width: 80px;
+		margin-top: 20px;
+		margin-left: 20px;
+	}
+
+main {
+	padding: 30px 50px;
+}
+
+	.card {
+	background-color: aliceblue;
+	border: 1px solid #ccc;
+	padding: 2rem;
+	margin-top: 1rem;
+	border-radius: 7px;
+	}
+	.pdInput {
+		display: grid;
+		margin-bottom: 1rem;
+	}
+	input {
+		padding: 0.8rem;
+		border-radius: 5px;
+		border: 1px solid #ccc
+	}
+
+	button {
+		border: 0px;
+		color: #faebd7;
+		background-color: #303030;
+		padding: 0.7rem;
+		border-radius: 5px;
+		font-weight: bold;
+		text-align: center;
+		transition: all ease 0.3s;
+	}
+
+	button:hover {
+		background-color: #000;
+	}
+
+	.conteudo{
+		margin-top: 1rem;
+	}
+
+	table{
+		width: 100%;
+		border-collapse: collapse;
+	}
+
+		table th {
+			border: 1px solid #ccc;
+			background-color: #303030;
+			color: aliceblue;
+			padding: 1px;
+		}
+		table td{
+			border: 1px solid #ccc;
+			padding: 1px;
+		}
